@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
+  <body class="blurred">
     <header class="header">
       <div class="header-left">
         <img
@@ -55,37 +55,37 @@
     <section class="day-section" data-day-section>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Monday</div>
+        <div class="day-card-day">Monday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Tuesday</div>
+        <div class="day-card-day">Tuesday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Wednesday</div>
+        <div class="day-card-day">Wednesday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Thursday</div>
+        <div class="day-card-day">Thursday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Friday</div>
+        <div class="day-card-day">Friday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Saturday</div>
+        <div class="day-card-day">Saturday</div>
         <div>32&deg;</div>
       </div>
       <div class="day-card">
         <img src="iconsWeather/cloud.svg" class="weather-icon" />
-        <div class="day-card-date">Sunday</div>
+        <div class="day-card-day">Sunday</div>
         <div>32&deg;</div>
       </div>
     </section>
@@ -273,7 +273,7 @@
     <template id="day-card-template">
       <div class="day-card">
         <img data-icon class="weather-icon" />
-        <div class="day-card-date" data-date></div>
+        <div class="day-card-day" data-date></div>
         <div><span data-temp>32</span><span>&deg;</span></div>
       </div>
     </template>
@@ -281,7 +281,7 @@
       <tr class="hour-row">
         <td>
           <div class="info-group">
-            <div class="label" data-date></div>
+            <div class="label" data-day></div>
             <div data-time></div>
           </div>
         </td>

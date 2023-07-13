@@ -101,7 +101,7 @@ body {
   padding: 0.25rem;
 }
 
-.day-card-date {
+.day-card-day {
   font-size: 0.75rem;
   color: var(--less-dark-blue);
   margin-top: 0.5rem;
